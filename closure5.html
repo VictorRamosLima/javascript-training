@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<a>aaaaaa</a>
+<a>aaaaaa</a>
+<a>aaaaaa</a>
+<a>aaaaaa</a>
+<a>aaaaaa</a>
+<a>aaaaaa</a>
+<script type="text/javascript">
+  var list = document.getElementsByTagName('a');
+  var i=0;
+  for(i=0;i<list.length; i++) {
+    list[i].onclick = function() {
+      alert(i)
+    }
+  }
+</script>
+</body>
+</html>
